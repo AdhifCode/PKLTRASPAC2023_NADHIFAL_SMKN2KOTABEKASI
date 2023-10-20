@@ -1,4 +1,6 @@
 <?php
+use Illuminate\Support\Facades\Storage;
+
 
 require_once __DIR__.'/../vendor/autoload.php';
 
@@ -95,6 +97,8 @@ $app->register(Flipbox\LumenGenerator\LumenGeneratorServiceProvider::class);
 $app->register(App\Providers\AppServiceProvider::class);
 $app->register(App\Providers\AuthServiceProvider::class);
 $app->register(App\Providers\EventServiceProvider::class);
+$app->register(Barryvdh\DomPDF\ServiceProvider::class);
+$app->configure('dompdf');
 
 /*
 |--------------------------------------------------------------------------
@@ -114,3 +118,8 @@ $app->router->group([
 });
 
 return $app;
+
+$app = new Laravel\Lumen\Application(
+    realpath(__DIR__.'/../')
+);
+

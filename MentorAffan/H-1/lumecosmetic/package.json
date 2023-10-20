@@ -1,0 +1,21 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@types/node": "^18.17.1",
+    "nuxt": "^3.6.5"
+  },
+  "dependencies": {
+    "bootstrap-vue": "^2.23.1",
+    "nuxt-icons": "^3.2.1",
+    "vue-owl-carousel": "^2.0.3"
+  }
+}

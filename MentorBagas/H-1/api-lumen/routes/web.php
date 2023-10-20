@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\ProductController;
+
 /** @var \Laravel\Lumen\Routing\Router $router */
 
 /*
@@ -12,12 +14,17 @@
 | and give it the Closure to call when that URI is requested.
 |
 */
+$router->get('/customers', 'CustomerController@index');
+$router->get('/customers/{id}', 'CustomerController@show');
+$router->get('/customers/exportpdf', 'CustomerController@exportpdf');
 
 $router->get('/products', 'ProductController@index');
 $router->get('/products/{id}', 'ProductController@show');
 $router->post('/products/create', 'ProductController@store');
 $router->post('/products/update/{id}', 'ProductController@update');
 $router->delete('/products/delete/{id}', 'ProductController@destroy');
+$router->get('/products/exportpdf', 'ProductController@exportpdf');
+$router->get('/products/exportexcel', 'ProductController@exportexcel');
 
 $router->get('/', function () use ($router) {
     return $router->app->version();

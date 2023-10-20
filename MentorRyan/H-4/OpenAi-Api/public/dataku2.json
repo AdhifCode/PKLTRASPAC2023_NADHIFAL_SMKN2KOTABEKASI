@@ -1,0 +1,64 @@
+{
+    "chat": [
+      {
+        "pertanyaan": [
+          {
+            "sender": "user",
+            "message": "Halo, apa kabar?"
+          },
+          {
+            "sender": "bot",
+            "message": "Halo! Saya adalah bot chat sederhana. Saya baik-baik saja. Bagaimana dengan Anda?"
+          }
+        ]
+      },
+      {
+        "pertanyaan": [
+          {
+            "sender": "user",
+            "message": "Saya baik juga, terima kasih."
+          },
+          {
+            "sender": "bot",
+            "message": "Bagus mendengarnya. Ada yang bisa saya bantu hari ini?"
+          }
+        ]
+      },
+      {
+        "pertanyaan": [
+          {
+            "sender": "user",
+            "message": "Bagaimana cara membuat akun?"
+          },
+          {
+            "sender": "bot",
+            "message": "Buka Situs Web: Buka situs web yang ingin Anda buat akunnya. Biasanya, Anda akan menemukan opsi Daftar atau Buat Akun di bagian atas atau bawah halaman beranda. Klik Daftar atau Buat Akun: Klik opsi yang sesuai untuk membuat akun baru. Isi Formulir Pendaftaran: Anda akan diminta untuk mengisi formulir pendaftaran dengan informasi pribadi Anda. Informasi ini mungkin mencakup nama, alamat email, kata sandi, dan data lain yang diperlukan. Pastikan untuk mengisi semua bidang yang diperlukan dengan informasi yang akurat. Verifikasi Email: Setelah Anda mengisi formulir pendaftaran, situs web mungkin akan mengirimkan email verifikasi ke alamat email yang Anda berikan. Buka email tersebut dan ikuti petunjuk verifikasi yang disediakan. Hal ini bertujuan untuk memastikan bahwa Anda adalah pemilik alamat email yang Anda gunakan. Login: Setelah Anda berhasil memverifikasi email Anda, Anda dapat login ke akun Anda dengan menggunakan alamat email dan kata sandi yang Anda buat saat mendaftar."
+          }
+        ]
+      },
+      {
+        "pertanyaan": [
+          {
+            "sender": "user",
+            "message": "Siapakah Jokowi?"
+          },
+          {
+            "sender": "bot",
+            "message": "Jokowi adalah julukan untuk Joko Widodo, yang merupakan Presiden Indonesia ke-7. Ia adalah politikus Indonesia yang dilantik sebagai Presiden pada tahun 2014, dan kemudian terpilih kembali untuk masa jabatan kedua pada tahun 2019. Sebelum menjabat sebagai Presiden, Jokowi menjabat sebagai Gubernur DKI Jakarta."
+          }
+        ]
+      },
+      {
+        "pertanyaan": [
+          {
+            "sender": "user",
+            "message": "Apakah ada panduan untuk menghubungkan produk kami dengan [Nama Aplikasi atau Perangkat]?"
+          },
+          {
+            "sender": "bot",
+            "message": " Integrasi produk kami dengan platform atau aplikasi lain dapat dilakukan dengan mengikuti [petunjuk integrasi]. Pastikan Anda memiliki [prasyarat yang diperlukan] sebelum melanjutkan."
+          }
+        ]
+      }
+    ]
+  }

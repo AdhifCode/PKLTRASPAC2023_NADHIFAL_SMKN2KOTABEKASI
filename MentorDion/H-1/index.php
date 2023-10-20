@@ -9,11 +9,11 @@
         <h2>Input Data Penjualan</h2>
         <?php
         for ($i = 1; $i <= 10; $i++) {
-            echo "Hari ke-$i: <input type='number' name='penjualan[]' required><br>";
+            echo "Hari ke-$i: <input type='number' name='y' required><br>";
         }
         ?>
         <h2>Prediksi Penjualan</h2>
-        Hari ke berapa: <input type="number" name="prediksi_hari" required><br>
+        Hari ke berapa: <input type="number" name="n" required><br>
         <input type="submit" value="Prediksi">
     </form>
 </body>
